@@ -5,7 +5,7 @@ function addZero(num){
 	return num;
 }
 /**
-*居中函数
+*居中函数   注释代表更新
 *element:需要居中的元素
 */
 function center(element){
