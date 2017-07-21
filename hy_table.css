@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+	table{
+		background:rgb(160,255,160);
+		border-color:green;
+		text-align:center;	
+		border-radius:5px 5px 0 0;	
+	}
+	table th{		
+		border-radius:5px 5px 0 0;
+		background:rgb(80,160,80);
+		color:black;		
+	}
+	table tr:nth-child(even){		
+		background:rgb(60,200,60);
+		color:white;
+	}
+	table tr:nth-child(odd){
+		color:red;		
+		background:rgb(200,255,200);
+		color:green;	
+	}
+	table a,table a:hover{
+		text-decoration:none;
+	}
