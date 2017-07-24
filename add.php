@@ -1,5 +1,6 @@
 <?php
 include 'common.php';
+include 'checkLogin.php';
 if($_POST['send']){
 	$searchSql="select * from member where username='".$_POST['username']."'";
 	$searchResult=$pdo->query($searchSql);

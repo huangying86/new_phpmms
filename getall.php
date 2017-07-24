@@ -1,8 +1,13 @@
 <link href="./hy_table.css" rel="stylesheet">
 
 <?php
-
 include 'common.php';
+include 'checkLogin.php';
+
+echo "<pre>";
+var_dump($_SESSION);
+var_dump($_GET);
+echo "</pre>";
 
 $total=$pdo->query("select * from member")->rowCount();
 //echo $total;

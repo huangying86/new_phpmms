@@ -1,6 +1,7 @@
 <?php
 //把common.php文件包含起来
 include 'common.php';
+include 'checkLogin.php';
 
 /* try{
 	$pdo=new PDO("mysql:host=localhost;dbname=web13","root","");

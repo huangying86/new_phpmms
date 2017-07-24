@@ -1,5 +1,6 @@
 <?php
 include 'common.php';
+include 'checkLogin.php';
 //若果id为真
 if($_GET['id']){
 	$sql="delete from member where id=".$_GET['id'];
